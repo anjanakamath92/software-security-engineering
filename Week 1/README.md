@@ -22,7 +22,7 @@ Following challenges have been completed :
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://drive.google.com/file/d/1ToKwdEuQmiKWDPMNwlKHHmrAQyV_SdKK/view' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='![alt text](https://raw.githubusercontent.com/anjanakamath92/software-security-engineering/Week 1/gif/week1.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
