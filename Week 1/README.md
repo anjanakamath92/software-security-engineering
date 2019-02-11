@@ -3,15 +3,12 @@
 Time spent: 3 hours
 
 Pre-requisites: 
-
-1. [X]  Required: Setup 
 -  [X]  Download and install Burp
 -  [X]  Configure browser to direct traffic through Burp
 -  [X]  Can successfully view HTTPS traffic
 -  [X]  Register an account at security shepherd
 
 Following challenges have been completed :
-
 1. [X]  HTTP Headers
 1. [X]  HTTP Methods
 1. [X]  Basic Routes 1
@@ -25,7 +22,7 @@ Following challenges have been completed :
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://drive.google.com/file/d/1ToKwdEuQmiKWDPMNwlKHHmrAQyV_SdKK/view?usp=sharing' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
