@@ -16,7 +16,7 @@ Time spent: **8** hours spent in total
   - [ ] Steps to recreate: Login as admin and create a new post with a malicious link http://www.example.com/wp-admin/customize.php?theme=<svg onload=alert(2 )>
   - [ ] Affected source code: https://core.trac.wordpress.org/changeset/36185
     - [Link 1] https://wpvulndb.com/vulnerabilities/8358
-1. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS) / CVE-2015-5714
+2. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS) / CVE-2015-5714
   - [ ] Summary: Malicious JavaScript code is tagged along with the shortcodes and links due to mishandling of unclosed HTML elements during processing of shortcode tags
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
@@ -26,7 +26,7 @@ Time spent: **8** hours spent in total
   - [ ] Steps to recreate: Create a new post with following content : [caption width='1' caption='<a href="' ">]</a><a href="onmouseover='alert(1)'">
   - [ ] Affected source code: https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/post.php
     - [Link 1] https://wpvulndb.com/vulnerabilities/8186
-1. (Required) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds / CVE-2015-6535
+3. (Required) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds / CVE-2015-6535
   - [ ] Summary: YouTube url embedding is tagged along with a malicious JavaScript code which allows remote administrators to inject arbitrary web script or HTML via the Profile name field
     - Vulnerability types: XSS
     - Tested in version: 4.2.2
