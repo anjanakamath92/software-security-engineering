@@ -2,8 +2,28 @@ Honeypot Setup and Outcome
 
 Total time spent : 6 hrs
 
-Setup 2 VM's on google cloud platform and setup firewall rules for the virtual machines. The mhn-admin VM and mhn-honeypot VM with Ubuntu - Dionaea with HTTP honeypot are deployed by following the instructions given.
-Issues faced mhn-celery-worker exiting too quickly. Restarting all the services solved the issue.
-Honeypot was left for running for 1 hour and multiple attacks were captured by the honeypot.
-Session.json file is added to the directory for this week's assignment in the github repo.
+Steps followed during honeypot deployment
+Step 0: To the Google Cloud!
+
+Step 1: Created MHN Admin VM and setup firewall rules 
+
+Step 2: Installed the MHN Admin Application on the MHN Admin VM
+
+Step 3: Created a MHN Honeypot VM (Ubuntu - Dionaea with HTTP)
+
+Step 4: Installed the Honeypot Application 
+
+Step 5: Attacked with nmap and Monitored the Attacks
+
+Issues faced :
+mhn-celery-worker exiting too quickly. 
+Restarting all the services solved the issue.
+
+Honeypots deployed :
+dionaea with HTTP
+amun
+cowrie
+
+Total attacks captured : 20
+Total malware samples collected : 0
 
